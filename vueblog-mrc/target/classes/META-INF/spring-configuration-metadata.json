@@ -1,0 +1,28 @@
+{
+  "groups": [
+    {
+      "name": "hiddenwaves.jwt",
+      "type": "com.hiddenwaves.util.JwtUtils",
+      "sourceType": "com.hiddenwaves.util.JwtUtils"
+    }
+  ],
+  "properties": [
+    {
+      "name": "hiddenwaves.jwt.expire",
+      "type": "java.lang.Long",
+      "sourceType": "com.hiddenwaves.util.JwtUtils",
+      "defaultValue": 0
+    },
+    {
+      "name": "hiddenwaves.jwt.header",
+      "type": "java.lang.String",
+      "sourceType": "com.hiddenwaves.util.JwtUtils"
+    },
+    {
+      "name": "hiddenwaves.jwt.secret",
+      "type": "java.lang.String",
+      "sourceType": "com.hiddenwaves.util.JwtUtils"
+    }
+  ],
+  "hints": []
+}
